@@ -17,7 +17,7 @@ class Routes extends React.Component {
                     <Route path="/in/home" component={HomeView}/>
                     <Route path="/in/announce" component={AnnounceView}/>
                     <Route path="/in/poll" component={PollView}/>
-                    <Route path="/in/forum" component={ForumView}/>
+                    {/* <Route path="/in/forum" component={ForumView}/> */}
                     <Route path="/in/lobby" component={LobbyView}/>
                     {/* <Route path="/in/booking" component={BookingView}/> */}
                     <Route path="/in/collaborators" component={CollaboratorView}/>

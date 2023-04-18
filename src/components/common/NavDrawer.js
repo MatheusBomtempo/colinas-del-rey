@@ -12,8 +12,11 @@ const styleDrawer = {
 };
 
 const styleDivLogo = {
-    height: 56,
-    textAlign: "center",
+    // height: 56,
+    // textAlign: "center",
+    backgroundColor: '#1795cc',
+    fontSize: '30px',
+    textAlign: 'center',
 };
 
 const styleLogo = {
@@ -55,7 +58,8 @@ class NavDrawer extends React.Component {
         return (
             <Drawer open={true} zDepth={1} containerStyle={styleDrawer}>
                 <div style={styleDivLogo}>
-                    <img src={logo} style={styleLogo} alt="logo"/>
+                    <p>thaian tech</p>
+                    {/* <img src={logo} style={styleLogo} alt="logo"/> */}
                 </div>
                 <Divider style={styleDivider}/>
                 <div>
@@ -79,12 +83,12 @@ class NavDrawer extends React.Component {
                                                   className="material-icons">announcement</FontIcon>}/>
                     <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Enquetes" href="/in/poll"
                               leftIcon={<FontIcon style={styleWhite} className="material-icons">poll</FontIcon>}/>
-                    <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Forum" href="/in/forum"
-                              leftIcon={<FontIcon style={styleWhite} className="material-icons">forum</FontIcon>}/>
+                    {/* <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Forum" href="/in/forum"
+                              leftIcon={<FontIcon style={styleWhite} className="material-icons">forum</FontIcon>}/> */}
                     <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Portaria" href="/in/lobby"
                               leftIcon={<FontIcon style={styleWhite} className="material-icons">store</FontIcon>}/>
-                    <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Reservas" href="/in/booking"
-                              leftIcon={<FontIcon style={styleWhite} className="material-icons">event</FontIcon>}/>
+                    {/* <ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Reservas" href="/in/booking"
+                              leftIcon={<FontIcon style={styleWhite} className="material-icons">event</FontIcon>}/> */}
                     {/*<ListItem hoverColor={deepOrangeA400} style={styleWhite} primaryText="Colaboradores"*/}
                               {/*href="/in/collaborators"*/}
                               {/*leftIcon={<FontIcon style={styleWhite}*/}
